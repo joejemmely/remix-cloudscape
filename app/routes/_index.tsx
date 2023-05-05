@@ -1,5 +1,6 @@
 import AppLayout from "@cloudscape-design/components/app-layout";
 import Button from "@cloudscape-design/components/button";
+import Select from "@cloudscape-design/components/select";
 import type { V2_MetaFunction } from "@remix-run/node";
 
 export const meta: V2_MetaFunction = () => {
@@ -12,7 +13,7 @@ export default function Index() {
       content={
         <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
           <h1>Welcome to Remix</h1>
-          <Button>Hello world</Button>
+          <Button variant="primary">Hello world</Button>
           <ul>
             <li>
               <a
